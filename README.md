@@ -152,7 +152,7 @@ archive-tmp  classes  docker-git-hello-world-0.0.1-SNAPSHOT-jar-with-dependencie
 Stop container   
 ```   
 docker stop <container-id>
-```     
+``` 
 
 Note: To remove an image the corresponding container built from that image will need to be removed.
 
@@ -174,7 +174,7 @@ docker rmi <image-id>
 remove all images
 ```
 docker rmi $(docker images -q)
-``` .  
+```  
 
 ## Step 7 Remove all images and containers. Then pull the image and started container   
 
