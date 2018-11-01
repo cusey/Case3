@@ -147,4 +147,5 @@ archive-tmp  classes  docker-git-hello-world-0.0.1-SNAPSHOT-jar-with-dependencie
 
 ![Build Details](https://github.com/cusey/ImageForWiki/blob/master/DockerExamples/Case3/DockerHub_build_details.png)   
 
+# Remove all images and containers. Then pull the image and started container   
 
