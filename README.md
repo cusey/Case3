@@ -139,7 +139,12 @@ archive-tmp  classes  docker-git-hello-world-0.0.1-SNAPSHOT-jar-with-dependencie
 
 ![create_automated_build](https://github.com/cusey/ImageForWiki/blob/master/DockerExamples/Case3/DockerHub_create_automated_build.png)   
 
-## Trigger Build by click trigger button   
+## Trigger Build by click the trigger button   
 
 ![Trigger Build](https://github.com/cusey/ImageForWiki/blob/master/DockerExamples/Case3/DockerHub_trigger_build.png)   
+
+## See Build Details by click the success    
+
+![Build Details](https://github.com/cusey/ImageForWiki/blob/master/DockerExamples/Case3/DockerHub_build_details.png)   
+
 
