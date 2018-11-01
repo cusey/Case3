@@ -125,7 +125,21 @@ archive-tmp  classes  docker-git-hello-world-0.0.1-SNAPSHOT-jar-with-dependencie
 
 ## Link your DockerHub with your GitHub repository   
 
+![Link to Github](https://github.com/cusey/ImageForWiki/blob/master/DockerExamples/Case3/DockerHub_link_github.png)
 
+## Select Create Automated Build   
 
+![Create Automated Build ](https://github.com/cusey/ImageForWiki/blob/master/DockerExamples/Case3/DockerHub_auto_build.png)  
 
+## Select the Github repository   
+
+![Github repository](https://github.com/cusey/ImageForWiki/blob/master/DockerExamples/Case3/DockerHub_select_repository.png)
+
+## Create Automated Build   
+
+![create_automated_build](https://github.com/cusey/ImageForWiki/blob/master/DockerExamples/Case3/DockerHub_create_automated_build.png)   
+
+## Trigger Build by click trigger button   
+
+![Trigger Build](https://github.com/cusey/ImageForWiki/blob/master/DockerExamples/Case3/DockerHub_trigger_build.png)   
 
