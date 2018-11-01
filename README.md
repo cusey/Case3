@@ -123,29 +123,58 @@ archive-tmp  classes  docker-git-hello-world-0.0.1-SNAPSHOT-jar-with-dependencie
 #exit
 ```    
 
-## Link your DockerHub with your GitHub repository   
+### Link your DockerHub with your GitHub repository   
 
 ![Link to Github](https://github.com/cusey/ImageForWiki/blob/master/DockerExamples/Case3/DockerHub_link_github.png)
 
-## Select Create Automated Build   
+### Select Create Automated Build   
 
 ![Create Automated Build ](https://github.com/cusey/ImageForWiki/blob/master/DockerExamples/Case3/DockerHub_auto_build.png)  
 
-## Select the Github repository   
+### Select the Github repository   
 
 ![Github repository](https://github.com/cusey/ImageForWiki/blob/master/DockerExamples/Case3/DockerHub_select_repository.png)
 
-## Create Automated Build   
+### Create Automated Build   
 
 ![create_automated_build](https://github.com/cusey/ImageForWiki/blob/master/DockerExamples/Case3/DockerHub_create_automated_build.png)   
 
-## Trigger Build by click the trigger button   
+### Trigger Build by click the trigger button   
 
 ![Trigger Build](https://github.com/cusey/ImageForWiki/blob/master/DockerExamples/Case3/DockerHub_trigger_build.png)   
 
-## See Build Details by click the success    
+### See Build Details by click the success    
 
-![Build Details](https://github.com/cusey/ImageForWiki/blob/master/DockerExamples/Case3/DockerHub_build_details.png)   
+![Build Details](https://github.com/cusey/ImageForWiki/blob/master/DockerExamples/Case3/DockerHub_build_details.png) 
 
-# Remove all images and containers. Then pull the image and started container   
+## Step 6 Remove all the containers and images
+
+Stop container   
+```   
+docker stop <container-id>
+```     
+
+Note: To remove an image the corresponding container built from that image will need to be removed.
+
+Remove a specific container   
+```   
+docker rm <container-id>
+```   
+
+Remove all containers    
+```
+docker rm $(docker ps -a -q)
+```
+
+remove image (note: no containers for this image should be running)    
+```
+docker rmi <image-id>
+```
+
+remove all images
+```
+docker rmi $(docker images -q)
+``` .  
+
+## Step 7 Remove all images and containers. Then pull the image and started container   
 
