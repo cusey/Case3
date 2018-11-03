@@ -1,9 +1,11 @@
-# Updated as of Nov 01, 2018
+# Updated as of Aug 16, 2017
 # Install FROM UBUNTU IMAGE
 FROM ubuntu:16.04
 
 #Author of the Docker File
-LABEL "Maintainer"="Cusey"
+# MAINTAINER Pictolearn Note: MAINTAINER has been deprecated for LABEL, 
+# LABEL is a key value pair 
+LABEL "Maintainer"="Pictolearn"
 
 # RUN COMMAND BASICALLY runs the command in the terminal and creates an image.
 # Install all the updates for UBUNTU
@@ -35,4 +37,4 @@ RUN cd /usr/local/docker-git-hello-world && mvn assembly:assembly
 
 #THE CMD COMMAND tells docker the command to run when the container is started up from the image. In this case we are
 # executing the java program as is to print Hello World.
-CMD ["java", "-cp", "/usr/local/docker-git-hello-world/target/docker-git-hello-world-0.0.1-SNAPSHOT-jar-with-dependencies.jar", "org.cusey.john.HelloWorldPing"]
+CMD ["java", "-cp", "/usr/local/docker-git-hello-world/target/docker-git-hello-world-0.0.1-SNAPSHOT-jar-with-dependencies.jar", "org.pictolearn.docker.HelloWorldPing"]
