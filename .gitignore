@@ -54,3 +54,5 @@ local.properties
 .cache-main
 .scala_dependencies
 .worksheet
+docker-git-hello-world/src/main/java/org/pictolearn/docker/HelloWorldPing.class
+docker-git-hello-world/.vscode/launch.json
